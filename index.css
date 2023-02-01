@@ -1,0 +1,19 @@
+body {
+    background-color: #151515;
+}
+
+div {
+    background: url(https://media.istockphoto.com/id/1245945607/photo/close-up-of-an-asian-indian-sad-girl-standing-near-the-room-window-and-looking-outside-while.jpg?s=612x612&w=0&k=20&c=vqtKaVa5rSmv9iwHV-U37X2933g8iLM59eq7C_0lIv0=) no-repeat center;
+    background-size: contain;
+    width: 800px;
+    
+    -webkit-background-clip: text;
+    color: transparent;
+    color: rgba(0, 0, 255, .15);
+    transition: 500ms all ease-in-out;
+    font-size: 10px;
+}
+
+div:hover {
+    color: rgba(144, 144, 245, 0.55)
+}
